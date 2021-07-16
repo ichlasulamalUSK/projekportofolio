@@ -1,0 +1,6 @@
+nx=0:50;
+x=sin(2*nx);
+ng=(nx+pi/4);
+g=x;
+stem(nx,x), hold on;
+stem(ng,g,'r');
